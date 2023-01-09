@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "solnurkarim.html-to-css-autocompletion",
+        "formulahendry.auto-rename-tag",
+        "esbenp.prettier-vscode",
+        "negokaz.live-server-preview"
+    ]
+}

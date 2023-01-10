@@ -56,17 +56,25 @@ a {
     overflow: hidden;
 }
 /* Header */
-
+.fix-header {
+    background: #e6f0ff;
+    padding-top: 38px;
+    position: sticky;
+    z-index: 1;
+    top: -26px;
+}
 .header {
     background: #e6f0ff;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    padding: 12px 0;
 }
 .navbar ul {
     display: flex;

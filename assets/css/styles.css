@@ -9,6 +9,11 @@
     --four-color: #ffff;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -65,7 +70,7 @@ a {
 }
 .header {
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 102px);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -114,10 +119,12 @@ a {
 
 .hero {
     margin-top: 130px;
+    height: calc(100vh - 90px);
 }
 
 .hero .info {
     width: 51%;
+
     /* 559px : 1110px *100% */
 }
 

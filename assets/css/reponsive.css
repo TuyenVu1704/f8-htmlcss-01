@@ -3,6 +3,9 @@
     .menu-bar {
         display: none;
     }
+    .header-tablet-mobile {
+        display: none;
+    }
 }
 /* Tablet / Mobile */
 @media screen and (max-width: 991px) {
@@ -62,19 +65,36 @@
     .menu-check:checked ~ .menu-drawer {
         transform: translateX(0);
     }
+
+    .show-mobile {
+        display: none;
+    }
 }
 
 /* Tablet*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .show-mobile {
+        display: none;
+    }
 }
 
 /* Mobile */
 @media screen and (max-width: 767px) {
+    .action {
+        display: none;
+    }
     .menu-drawer {
         inset: 0 25% 0 0;
     }
 
     .menu-drawer ul {
         margin-top: 40px;
+    }
+    .show-mobile {
+        display: block;
+    }
+
+    .menu-drawer ul .show-mobile a {
+        color: #101c4b;
     }
 }

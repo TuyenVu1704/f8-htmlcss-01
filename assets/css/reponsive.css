@@ -69,6 +69,44 @@
     .show-mobile {
         display: none;
     }
+
+    .hero-img {
+        display: none;
+    }
+    .header .info {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .client .logo {
+        margin-top: 70px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-featured {
+        display: grid;
+        grid-template-columns: 322px;
+        row-gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .featured-items .featured-img {
+        object-fit: fill;
+    }
+
+    .stats .img-block .img-stats {
+        display: block;
+        margin-left: auto;
+        width: 100%;
+        height: 460px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .stats .info {
+        padding: 80px 0 0 40px;
+    }
 }
 
 /* Tablet*/
